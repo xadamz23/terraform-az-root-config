@@ -1,6 +1,6 @@
 module "storage" {
   #   source = "../terraform-az-storage-module"
-  source = "git::ssh://git@github.com/xadamz23/terraform-az-storage-module//storage?ref=1.0.2"
+  source = "git::ssh://git@github.com/xadamz23/terraform-az-storage-module//storage?ref=1.0.3"
 
   resource_group_name      = var.resource_group_name
   location                 = var.location
